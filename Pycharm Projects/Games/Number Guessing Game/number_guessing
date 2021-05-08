@@ -1,0 +1,31 @@
+######## INCOMPLETE #######
+
+from random import randint
+
+
+class number_guess:
+
+    def __init__(self):
+        self.start = randint(1,10)
+        self.end = randint(20,65)
+        self.sys_choice = randint(self.start,self.end)
+
+    def player(self):
+        player_name = input("Hello boss . what's ya name : ")
+        print(f"Well {player_name} I got a number guessed between {self.start} and {self.end}... Can you guess me ?  ")
+
+    def game(self):
+        tries = 0
+        while True :
+            player_guess = int(input("Guess the number Chief"))
+            if (player_guess == self.sys_choice):
+                print(f"Bullseye... You got me . You needed {tries} tries")
+            break
+        tries+=1
+
+# if __name__ == "main":
+new_game = number_guess()
+new_game.game()
+
+
+
