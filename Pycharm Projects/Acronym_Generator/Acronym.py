@@ -6,8 +6,15 @@ def general_acronym(user_input_value):
         st = st+str(wrd[0]).upper()
     print(st)
 
+
 def full_initial(user_input_value):
-    pass
+    user_input = user_input_value
+    lst = user_input.split(" ")
+    st = ""
+    for wrd in lst:
+        st = st + str(wrd[0]).upper() + "."
+    print(st)
+
 
 def sp_acronym(user_input_value):
     pass
@@ -40,9 +47,9 @@ def main():
 
     if choice == 1:
         general_acronym(user_input)
-    elif choice ==2:
+    elif choice == 2:
         full_initial(user_input)
-    elif choice ==3:
+    elif choice == 3:
         sp_acronym(user_input)
 
 
