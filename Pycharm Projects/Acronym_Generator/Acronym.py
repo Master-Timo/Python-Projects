@@ -17,7 +17,13 @@ def full_initial(user_input_value):
 
 
 def sp_acronym(user_input_value):
-    pass
+    user_input = user_input_value
+    lst = user_input.split(" ")
+    st = ""
+    for i in range(len(lst)-1):
+        st = st + str(lst[i][0]).upper() + "."
+    st = st + str(lst[-1][0]).upper()
+    print(st)
 
 
 def menu():
