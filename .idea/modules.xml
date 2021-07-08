@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Pycharm Projects/Acronym_Generator/.idea/Acronym_Generator.iml" filepath="$PROJECT_DIR$/Pycharm Projects/Acronym_Generator/.idea/Acronym_Generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pycharm Projects/Fibonacci_Generator_Checker/.idea/Fibonacci_Generator_Checker.iml" filepath="$PROJECT_DIR$/Pycharm Projects/Fibonacci_Generator_Checker/.idea/Fibonacci_Generator_Checker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Python-Projects.iml" filepath="$PROJECT_DIR$/.idea/Python-Projects.iml" />
     </modules>
   </component>
